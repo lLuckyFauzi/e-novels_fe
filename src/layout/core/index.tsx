@@ -2,7 +2,7 @@ import { AppProps } from 'next/app'
 import React from 'react'
 
 const LayoutDefault = (props: AppProps) => {
- const {Component, pageProps} = props
+ const { Component, pageProps } = props
   return (
     <div>
         <Component {...pageProps} />
