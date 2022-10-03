@@ -1,7 +1,7 @@
 import { Button } from 'antd'
 import type { NextPage } from 'next'
 import { useState } from 'react'
-import Text from '../../src/component/Typography/Text'
+import Text from '../../component/Typography/Text'
 
 const Home: NextPage = () => {
   const [ count, setCount ] = useState(0)
@@ -16,12 +16,12 @@ const Home: NextPage = () => {
       <div style={{
         textAlign: 'center'
       }}>
-        <Text size={55} color="white" bold style={{padding: '5px', borderRadius: '8px'  }}>Kikys</Text>
+        <Text size={55} color="main" bold style={{padding: '5px', borderRadius: '8px'}}>Kokys</Text>
         <br />
-        <Text size={20} color='lightGray' style={{ padding: '5px', backgroundColor: 'white', borderRadius: '8px'}}>Happy coding with Kiky's Template! ;)</Text>
+        <Text size={20} color='lightGray' style={{ padding: '5px', backgroundColor: 'white', borderRadius: '8px'}}>Happy coding with Koky's Template! ;)</Text>
         <br />
         <div style={{marginTop: '20px'}}>
-          <Text size={35} color='white'>{count}</Text>
+          <Text size={35} color='main'>{count}</Text>
         </div>
         <br />
         <Button type='primary' style={{

@@ -4,6 +4,7 @@ import { TextProps } from 'antd/lib/typography/Text'
 
 const { Text: CurText } = Typography 
 const mapColor = {
+    main: '#d4a373',
     white: 'white',
     black: 'black',
     lightGray: 'F3E9E0',
@@ -18,7 +19,7 @@ const mapFontFamily = {
 interface IText extends TextProps {
     className?: string
     size?: number
-    color?: 'white' | 'black' | 'lightGray' | 'midGray' | 'darkGray'
+    color?: 'white' | 'black' | 'lightGray' | 'midGray' | 'darkGray' | 'main'
     style?: CSSProperties
     bold?: boolean
     fontFamily?: 'bold' | 'regular'
