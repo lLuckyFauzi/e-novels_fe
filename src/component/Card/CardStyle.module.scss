@@ -1,0 +1,29 @@
+.card {
+    width: 359px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 25px;
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+
+
+    .description {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+
+        hr {
+            border: 1px solid rgba(128, 128, 128, 0.39);
+            border-radius: 50px;
+        }
+    }
+
+    
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    border-bottom: 2px solid gray;
+    box-shadow: 3px 10px 12px 0px rgba(147, 147, 147, 0.407);
+}

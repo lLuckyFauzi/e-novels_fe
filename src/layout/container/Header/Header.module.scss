@@ -1,0 +1,31 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #F3E9E0;
+    padding: 38px 100px;
+
+    .list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .helper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .profile {
+            width: 50px;
+            height: 50px;
+            background-color: gray;
+            border-radius: 50%;
+        }
+    }
+}

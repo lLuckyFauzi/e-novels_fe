@@ -1,0 +1,35 @@
+  .swiperContainer {
+    :global {
+        .swiper-pagination {
+            transform: translateY(-10px);
+           }
+           .swiper-pagination-bullet {
+            width: 33px;
+            height: 12px;
+            border-radius: 2px;
+           }
+           .swiper-pagination-bullet-active{
+            background: #71492E;
+           }
+      }
+
+      .swiper {
+        padding: 80px 0px;
+      }
+  }
+
+  .arrowIcon{
+    transition: 0.2s;
+  }
+
+  .btnSeeMore {
+    transition: 0.2s;
+  }
+
+  .btnSeeMore:hover .arrowIcon{
+    transform: translateX(20px);
+  }
+
+  .btnSeeMore:hover{
+    transform: translateY(-10px);
+  }

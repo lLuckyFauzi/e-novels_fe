@@ -1,0 +1,18 @@
+.floatAction {
+    padding: 30px;
+    position: absolute;
+    z-index: 99;
+    left: -20px;
+    top: 178px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.floatAction:hover {
+    border-radius: 50%;
+    box-shadow: 1px 10px 15px 0px rgba(134, 134, 134, 0.323);
+    transform: translateX(25px);
+}
